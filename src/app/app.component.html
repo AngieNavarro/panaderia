@@ -13,6 +13,32 @@
 </header>
 
 <main>
+  <section>
+    <!-- carrito.component.html -->
+<!-- <div class="container">
+  <h2>Tu pedido</h2>
+
+  <div *ngFor="let item of cart" class="producto">
+    <p>{{ item.nombre }} x{{ item.cantidad }}</p>
+    <button (click)="quitarProducto(item.nombre)">-</button>
+    <button (click)="agregarProducto(item.nombre)">+</button>
+  </div>
+
+  <div class="formulario">
+    <label>
+      Nombre:
+      <input type="text" [(ngModel)]="userName" placeholder="Tu nombre" />
+    </label>
+    <label>
+      Teléfono:
+      <input type="text" [(ngModel)]="phone" placeholder="Tu número" />
+    </label>
+  </div>
+
+  <button (click)="enviarPedido()">Enviar pedido por WhatsApp</button>
+</div> -->
+
+  </section>
   <section class="hero" id="inicio">
     <h1>Pan Fresco Todos los Días</h1>
     <img src="panes_panel.webp" class="pan_central" alt="">
@@ -31,7 +57,7 @@
         <p>Pan rústico elaborado con harina integral, semillas de girasol y un toque de miel. Perfecto para acompañar
           cualquier comida.</p>
         <div class="price">$3.50</div>
-        <button class="btn">Agregar al Carrito</button>
+        <!-- <button class="btn">Agregar al Carrito</button> -->
       </div>
       <div class="product-card">
         <h3>Croissants Franceses</h3>
@@ -40,7 +66,7 @@
         <p>Deliciosos croissants hojaldrados con mantequilla francesa. Disponibles simples o rellenos de chocolate y
           almendras.</p>
         <div class="price">$2.25</div>
-        <button class="btn">Agregar al Carrito</button>
+        <!-- <button class="btn">Agregar al Carrito</button> -->
       </div>
       <div class="product-card">
         <h3>Pan de Centeno</h3>
@@ -49,7 +75,7 @@
         <p>Pan tradicional alemán con semillas de centeno y caraway. Ideal para sandwiches gourmet y acompañar quesos.
         </p>
         <div class="price">$4.00</div>
-        <button class="btn">Agregar al Carrito</button>
+        <!-- <button class="btn">Agregar al Carrito</button> -->
       </div>
       <div class="product-card">
         <h3>Baguette Tradicional</h3>
@@ -58,7 +84,7 @@
         <p>Auténtica baguette francesa con corteza crujiente y miga suave. Horneada varias veces al día para garantizar
           frescura.</p>
         <div class="price">$2.75</div>
-        <button class="btn">Agregar al Carrito</button>
+        <!-- <button class="btn">Agregar al Carrito</button> -->
       </div>
       <div class="product-card">
         <h3>Pan Dulce Artesanal</h3>
@@ -67,7 +93,7 @@
         <p>Variedad de panes dulces: conchas, cuernitos, orejas y más. Elaborados con recetas familiares y ingredientes
           premium.</p>
         <div class="price">$1.50</div>
-        <button class="btn">Agregar al Carrito</button>
+        <!-- <button class="btn">Agregar al Carrito</button> -->
       </div>
       <div class="product-card">
         <h3>Pan Sin Gluten</h3>
@@ -76,7 +102,7 @@
         <p>Opciones deliciosas para celíacos elaboradas en área libre de gluten con harinas alternativas de alta
           calidad.</p>
         <div class="price">$5.25</div>
-        <button class="btn">Agregar al Carrito</button>
+        <!-- <button class="btn">Agregar al Carrito</button> -->
       </div>
     </div>
   </section>
@@ -160,4 +186,5 @@
     </div>
   </div>
 </footer>
+
 <router-outlet></router-outlet>
